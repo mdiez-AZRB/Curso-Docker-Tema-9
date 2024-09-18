@@ -4,7 +4,8 @@ on:
         branches:
             - Development
 jobs:
-    CI_Test_And_Build:
+    build:
+        name: CI_Test_And_Build
         runs-on: ubuntu-latest
 
         steps:
